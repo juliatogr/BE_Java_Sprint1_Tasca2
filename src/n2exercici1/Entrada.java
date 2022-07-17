@@ -106,7 +106,7 @@ public class Entrada {
 				isValid = true;
 			} catch (Exception e) {
 				System.out.println("Error de format");
-				//sc.nextLine();
+				sc.nextLine();
 			}
 		}
 		
