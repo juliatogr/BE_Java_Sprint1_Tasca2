@@ -17,15 +17,12 @@ public class Entrada {
 		while (!isValid) {
 			try {
 				answer = sc.nextByte();
-				sc.nextLine();
 				isValid = true;
 			} catch (InputMismatchException ime) {
 				System.out.println("Error de format");
-				sc.nextLine();
 			}
+			sc.nextLine();
 		}
-
-		
 		
 		return answer;
 	}
@@ -40,12 +37,11 @@ public class Entrada {
 		while (!isValid) {
 			try {
 				answer = sc.nextInt();
-				sc.nextLine();
 				isValid = true;
 			} catch (InputMismatchException ime) {
 				System.out.println("Error de format");
-				sc.nextLine();
 			}
+			sc.nextLine();
 		}
 		
 		return answer;
@@ -60,13 +56,12 @@ public class Entrada {
 		
 		while (!isValid) {
 			try {
-				answer = sc.nextFloat();
-				sc.nextLine();				
+				answer = sc.nextFloat();				
 				isValid = true;
 			} catch (InputMismatchException ime) {
 				System.out.println("Error de format");
-				sc.nextLine();
 			}
+			sc.nextLine();
 		}
 		
 		return answer;
@@ -82,12 +77,11 @@ public class Entrada {
 		while (!isValid) {
 			try {
 				answer = sc.nextDouble();
-				sc.nextLine();
 				isValid = true;
 			} catch (InputMismatchException ime) {
 				System.out.println("Error de format");
-				sc.nextLine();
 			}
+			sc.nextLine();
 		}
 		
 		return answer;
